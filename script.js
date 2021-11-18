@@ -36,7 +36,7 @@ for (let i = 0; i < carte.length; i++) {
         // Logique entiere du jeu
         if (joueur === robot)
             resultat = "Vous avez fait une egalité !";
-        else if ((joueur === "dracofeu" && robot === "florizarre") || (joueur === "tortank" && robot === "dracofeu") || (joueur === "florizarre" && robot === "tortank"))
+        else if ((joueur == "dracofeu" && robot == "florizarre") || (joueur == "tortank" && robot == "dracofeu") || (joueur == "florizarre" && robot == "tortank"))
             resultat = "Vous avez gagné !!";
         else
             resultat = "Vous avez perdu !";
